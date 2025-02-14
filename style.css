@@ -7,4 +7,8 @@ color:green;
     front-family:‘Courier New ’ Courier, monospace;
     front-size:25px;
     color:blue;
+
+}
+.img-p{
+    border-radius: 10px 5px;
 }
