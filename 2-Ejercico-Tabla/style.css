@@ -1,0 +1,17 @@
+ table{ 
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #f176b4;
+    padding: 8px;
+    text-align: left;
+    color: rgb(16, 75, 129);
+}
+td{
+    background-color:rgb(255, 255, 255) ;
+}
+td,tr
+{
+    background-color:rgba(239, 190, 253, 0.81);
+}
