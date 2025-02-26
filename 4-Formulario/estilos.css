@@ -1,5 +1,25 @@
-.boton1{
-    border-radius: 15px;
-    background-color: rgb(187, 53, 53);
-    color: rgb(3, 3, 211);
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Color del título */
+h1 {
+    color: #4A90E2; /* Azul */
+    text-align: center;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde oscuro al pasar el mouse */
 }

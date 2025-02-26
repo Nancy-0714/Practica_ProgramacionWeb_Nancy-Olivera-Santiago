@@ -5,17 +5,19 @@
 }
 .boton2{
     border-radius: 15px;
-    background-color: brown;
+    background-color: #f3ef18;
     color: blue;
-    padding: 10px;
+    padding: 10px 20px;
     text-align: center;
 }
 .boton3{
     border-radius: 15px;
-    background-color: brown;
+    background-color: rgb(51, 238, 5);
     color: blue;
-    padding: 10px;
-    text-align: center;
+    padding: 10px 20px;
+    text-align: end;
+    border:none;
+    font-size: 20px;
 }
 
 
