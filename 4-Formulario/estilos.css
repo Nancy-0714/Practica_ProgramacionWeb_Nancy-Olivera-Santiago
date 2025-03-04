@@ -3,16 +3,14 @@ input, select, button {
     margin: 5px;
 }
 
-/* Color del título */
 h1 {
-    color: #4A90E2; /* Azul */
+    color: #0d6ce7; 
     text-align: center;
 }
 
-/* Estilo del botón */
 button {
-    background-color: #4CAF50; /* Verde */
-    color: white;
+    background-color: #64a3df; 
+    color: rgb(255, 25, 224);
     border: none;
     cursor: pointer;
     padding: 10px 20px;
@@ -21,5 +19,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049; /* Verde oscuro al pasar el mouse */
+    background-color: #45a049; 
 }

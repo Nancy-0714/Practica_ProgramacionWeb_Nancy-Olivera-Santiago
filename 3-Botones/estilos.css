@@ -1,23 +1,27 @@
 .boton1{
     border-radius: 15px;
-    background-color: brown;
-    color: blue;
+    background-color: rgb(27, 92, 214);
+    color: rgb(255, 0, 128);
+    border:none;
+    font-size: 20px;
 }
 .boton2{
     border-radius: 15px;
-    background-color: #f3ef18;
-    color: blue;
+    background-color: #e65319;
+    color: rgb(17, 218, 60);
     padding: 10px 20px;
     text-align: center;
+    border:none;
+    font-size: 40px;
 }
 .boton3{
     border-radius: 15px;
-    background-color: rgb(51, 238, 5);
-    color: blue;
+    background-color: rgb(170, 15, 190);
+    color: rgb(3, 3, 15);
     padding: 10px 20px;
     text-align: end;
     border:none;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 
