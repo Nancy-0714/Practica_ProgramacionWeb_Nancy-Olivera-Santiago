@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+        font-family: Arial, sans-serif;
+        background-image: url('img12.jpg'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        margin: 0;
+        padding: 0;
+    
+   
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Estilos para el card */
+.card {
+    border: 1px solid  #164c94;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(26, 86, 141);
+    background-color: #1e5ba0af;
+}
+
+.card-header {
+    background-color: #ece6ad;
+    color: #ffffffd7;
+    padding: 8px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h6 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Estilos para los formularios */
+.form-section {
+    margin-bottom: 1 rem;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #2e2b2b8c;
+    border-radius: 1px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: rgb(243, 239, 231);
+    outline: none;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.form-select:focus {
+    border-color: #be93cf;
+    outline: none;
+    box-shadow: 0 0 5px rgb(175, 133, 184);
+}
+
+/* Estilos para el botón */
+.btn-primary {
+    background-color: #f0e9ea;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e6ced9;
+}
+
+/* Estilos para las filas y columnas */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.col-md-3, .col-md-4, .col-md-6, .col-md-12 {
+    padding: 15px;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .col-md-3, .col-md-4, .col-md-6, .col-md-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-primary {
+        margin-top: 10px;
+    }
+}
