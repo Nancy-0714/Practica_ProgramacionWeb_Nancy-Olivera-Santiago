@@ -1,0 +1,78 @@
+/* Estilos para los botones */
+.boton1 {
+    background-color: #968b8b; 
+    color: rgb(3, 3, 3);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton1:hover {
+    background-color: #f3f3f3; /* Verde más oscuro  */
+}
+
+.btn-primary {
+    background-color: #076464fa; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color:#076464fa;
+}
+
+.btn-danger {
+    background-color: #076464fa;; /* azul*/
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #076464fa;; /* azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para el color del texto */
+.card-body p {
+    color: #333; /* Color de texto oscuro */
+    text-align: justify; /* Texto justificado */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.card-body h5 {
+    color: #000000; /* Color de texto para subtítulos */
+    font-size: 18px; /* Tamaño de fuente para subtítulos */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.card-header h6 {
+    color: #fff; /* Color de texto blanco para títulos en card-header */
+    font-size: 22px; /* Tamaño de fuente para títulos */
+}
+
+/* Estilos adicionales para el formulario */
+.form-control {
+    margin-bottom: 15px; /* Espaciado entre campos del formulario */
+}
+
+.lab {
+    color: #333; /* Color de texto para etiquetas del formulario */
+    font-size: 16px; /* Tamaño de fuente para etiquetas */
+}
+
+/* Estilos para las imágenes en el formulario */
+.mb-3 img {
+    vertical-align: middle; /* Alinea las imágenes con el texto */
+}
